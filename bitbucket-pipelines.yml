@@ -5,10 +5,10 @@ pipelines:
     - step:
         script:
           - docker version
-          - npm install
+          - yarn
           - docker build -t kylecordes/abc-in-class-server .
-          - echo docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
-          - echo docker push kylecordes/abc-in-class-server
+          - docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
+          - docker push kylecordes/abc-in-class-server
         services:
           - docker
 
