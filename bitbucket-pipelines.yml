@@ -6,8 +6,8 @@ pipelines:
         script:
           - docker version
           - npm install
+          - docker build -t kylecordes/abc-in-class-server .
           - echo docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
-          - echo docker build -t kylecordes/abc-in-class-server .
           - echo docker push kylecordes/abc-in-class-server
         services:
           - docker
