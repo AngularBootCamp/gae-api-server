@@ -8,6 +8,8 @@
   },
   "author": "Kyle Cordes <kyle.cordes@oasisdigital.com>",
   "dependencies": {
+    "graphql-schema-from-json": "^0.0.3",
+    "json-graphql-server": "^2.1.1",
     "json-server": "^0.12.1"
   },
   "engines": {
