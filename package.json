@@ -4,7 +4,7 @@
   "description": "",
   "licence": "Apache-2.0",
   "scripts": {
-    "start": "json-server --read-only --port $PORT data.json"
+    "start": "node server.js"
   },
   "author": "Kyle Cordes <kyle.cordes@oasisdigital.com>",
   "dependencies": {
