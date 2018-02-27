@@ -1,0 +1,16 @@
+image: node:8
+
+pipelines:
+  default:
+    - step:
+        script:
+          - docker version
+          - yarn
+          - docker build -t kylecordes/abc-in-class-server .
+          - docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
+          - docker push kylecordes/abc-in-class-server
+        services:
+          - docker
+
+options:
+  docker: true
