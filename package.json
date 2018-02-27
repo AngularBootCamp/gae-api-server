@@ -1,0 +1,16 @@
+{
+  "name": "@angular-boot-camp/gae-api-server",
+  "version": "1.0.0",
+  "description": "",
+  "licence": "Apache-2.0",
+  "scripts": {
+    "start": "json-server --read-only --port $PORT data.json"
+  },
+  "author": "Kyle Cordes <kyle.cordes@oasisdigital.com>",
+  "dependencies": {
+    "json-server": "^0.12.1"
+  },
+  "engines": {
+    "node": ">=8.x"
+  }
+}
