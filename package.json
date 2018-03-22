@@ -2,7 +2,7 @@
   "name": "@angular-boot-camp/gae-api-server",
   "version": "1.0.0",
   "description": "",
-  "licence": "Apache-2.0",
+  "license": "Apache-2.0",
   "scripts": {
     "start": "node server.js"
   },
