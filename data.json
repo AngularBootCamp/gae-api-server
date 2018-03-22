@@ -1,5 +1,4 @@
 {
-
   "videos": [
     {
       "title": "Angular Observable Data Flow",
@@ -39,9 +38,9 @@
       ]
     },
     {
-      "title": "Angular Live Coding",
-      "author": "Kyle Cordes",
-      "id": "CkK1BT6mMAw",
+      "title": "Angular Performance Checklist",
+      "author": "Paul Spears",
+      "id": "cxqRijt9LbQ",
       "viewDetails": [
         {
           "age": 36,
@@ -76,9 +75,9 @@
       ]
     },
     {
-      "title": "Managing State in Angular",
-      "author": "Kyle Cordes",
-      "id": "eBLTz8QRg4Q",
+      "title": "Live App Updates Without The App Store",
+      "author": "Sani Yusuf",
+      "id": "s10wrXA-a7Y",
       "viewDetails": [
         {
           "age": 17,
@@ -113,9 +112,9 @@
       ]
     },
     {
-      "title": "Modl Buildr",
-      "author": "Paul Spears",
-      "id": "4ENpTiHKyi4",
+      "title": "Angular Reactive Forms",
+      "author": "Jack Balbes",
+      "id": "A_Rq6ZsoXpI",
       "viewDetails": [
         {
           "age": 36,
@@ -150,9 +149,9 @@
       ]
     },
     {
-      "title": "ngConf 2015",
-      "author": "Oasis Digital Solutions Inc.",
-      "id": "NQOCQq6PLQg",
+      "title": "Imperative to Reactive with Angular and RxJS",
+      "author": "John Baur",
+      "id": "VJOPsjlbhdg",
       "viewDetails": [
         {
           "age": 17,
